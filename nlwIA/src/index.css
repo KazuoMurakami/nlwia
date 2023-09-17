@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    color: white;
+    background-color: #121214;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Roboto", sans-serif;
+}
+
+#form > input:focus {
+    outline: 2px solid #8257e5;
+}
+
+.placeholder {
+    color: #7c7c8a;
+    user-select: none;
+}
+
+.box {
+    width: 500px;
+}
